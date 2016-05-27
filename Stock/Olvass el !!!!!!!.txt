@@ -1,0 +1,8 @@
+1 Mivel a Jporta nem engedélyezett akkora nagyságú fájl feltöltését , hogy az  tartalmazza a JFreeChart könyvtárat , így megoldásképp  A feladatomnak egy olyan verzióját töltöttem fel , melyben a grafikon nem látható, ám bemutatáson a grafikonnal együtt fogom , addig is a dokumentációban látható kép a grafikonnal való futásról.
+
+
+
+2
+A program elindítása a rentgeteg adat miatt akár 30 másodpercbe is telhet!!
+
+Abban az esetben ,ha nincsenek meg a rendelkezésre álló adatok , és azokat az internetrõl kell letölteni  akkor ez az idõ még több lehet akár 2-3 perc is , ennek oka a szerver , ahonnan lekell tölteni a 200Mb -os fájlokat , és a 2 millió soros txt-k feldarabolása.Sajnos nem találtam más forrásfájlt csak ilyenekt. Tehát ha az internetrõl letöltõs funkciót kiakarjuk próbálni ahhoz ki kell törölni a dátummal elátott mappákot ,és akkor a program újra letölti az adatokat az internetrõl , de ez sok idõ  nagyon ...
